@@ -63,6 +63,7 @@ nav a {
 /* header related work */
 .header {
     background-color: #FFF8F3;
+
 }
 
 .banner {
@@ -74,4 +75,162 @@ nav a {
 .profile-pic {
     width: 400px;
 
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner-grating {
+    font-size: 45px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+/* main section styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+}
+
+/* about section */
+.about {
+    margin-top: 118px;
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin-bottom: 130px;
+
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-title {
+    color: var #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.info-description {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+/* what i do style */
+
+#what-i-do-description {
+    padding: 30px 150px;
+}
+
+.skills-description {
+    display: flex;
+}
+
+.skill {
+    padding: 30px;
+    gap: 24px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+/* resume style */
+
+.resume-container {
+    display: flex;
+}
+
+.resume-item {
+    margin-right: 71px;
+}
+
+#btn-btn {
+    margin-left: 470px;
+    margin-top: 50px;
+}
+
+hr {
+    margin: 30px;
+}
+
+/* footer style start */
+
+footer {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    margin: 100px;
+    padding: 130px 200px;
+}
+
+.footer-colum {
+    width: 50%;
+}
+
+.footer-colum {
+    text-align: center;
+}
+
+input,
+textarea {
+    display: block;
+    border: 0;
+    width: 100%;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.submit {
+    margin-top: 15px;
 }
